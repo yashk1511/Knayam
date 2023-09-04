@@ -1,0 +1,9 @@
+* {
+  font-family: Montserrat, sans-serif;
+}
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman",
+    serif /*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  font-size: 2.25rem;
+}

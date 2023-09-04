@@ -1,0 +1,17 @@
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+    letter-spacing: -0.05rem;
+    /* color: #0b420b; */
+  }
+}
+
+@media (min-width: 40em) {
+  .featurette-heading {
+    font-size: 40px;
+  }
+}
+
+.featurette-heading {
+  letter-spacing: -0.05rem;
+}

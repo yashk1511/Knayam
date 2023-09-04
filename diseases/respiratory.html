@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Respiratory and Ayurveda</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+  crossorigin="anonymous"
+/>
+ 
+</head>
+<body>
+
+
+
+    <h1 id="typed-text"  ></h1>
+
+
+
+
+
+
+
+
+    
+
+
+
+  <h2>Introduction</h2>
+  <p>
+    Respiratory specialists are medical professionals who specialize in the diagnosis, treatment, and prevention of diseases and disorders of the respiratory system. They play a crucial role in managing respiratory health and promoting overall well-being. In recent years, there has been an increasing interest in integrating Ayurvedic principles and practices into respiratory care for a holistic approach.
+  </p>
+
+  <h2>Ayurveda and Respiratory Health</h2>
+  <p>
+    Ayurveda, the ancient Indian system of medicine, emphasizes a personalized and holistic approach to healthcare. It focuses on balancing the mind, body, and spirit to achieve optimal health. In the context of respiratory health, Ayurveda identifies various factors that can contribute to respiratory disorders, including imbalances in the doshas (Vata, Pitta, and Kapha), improper diet, lifestyle choices, environmental factors, and emotional disturbances.
+  </p>
+
+  <img src="img70.jpg" alt="Description of the image">
+
+  <h2>Role of Respiratory Specialist in Ayurveda</h2>
+  <p>
+    Respiratory specialists who integrate Ayurvedic principles into their practice aim to combine the best of modern respiratory medicine with the holistic principles of Ayurveda. They focus not only on diagnosing and treating respiratory conditions but also on addressing the root causes and imbalances that contribute to respiratory disorders.
+  </p>
+  <p>
+    A respiratory specialist practicing Ayurveda may utilize various Ayurvedic techniques and therapies, such as dietary modifications, herbal remedies, lifestyle recommendations, breathing exercises, yoga, and meditation. They may also incorporate Ayurvedic diagnostic methods, including pulse reading (Nadi Pariksha), to gain insights into the patient's overall health and customize treatment plans accordingly.
+  </p>
+
+  <h2>Benefits of Integrating Ayurveda in Respiratory Care</h2>
+  <p>
+    Integrating Ayurveda in respiratory care can offer several benefits, including:
+  </p>
+  <ul>
+    <li>Promoting respiratory health through a holistic and individualized approach</li>
+    <li>Addressing the underlying causes of respiratory disorders</li>
+    <li>Reducing the reliance on medications and invasive procedures</li>
+    <li>Enhancing overall well-being and quality of life</li>
+    <li>Preventing future respiratory problems through lifestyle modifications</li>
+  </ul>
+
+  <h2>Conclusion</h2>
+  <p>
+    Respiratory specialists trained in Ayurveda bring a unique perspective to the field of respiratory medicine. By combining the ancient wisdom of Ayurveda with modern medical knowledge, they offer a comprehensive and holistic approach to respiratory care. If you are seeking respiratory treatment, consider consulting a respiratory specialist who incorporates Ayurvedic principles into their practice for a well-rounded and personalized approach to your respiratory health.
+  </p>
+
+
+
+
+  <style>
+    
+    body {
+        margin: 0;
+      padding: 0;
+      background-color: #eaf2e6;
+      margin-top: 0; /* Add this rule to remove space at the top */
+     
+     
+    }
+
+    h1 {
+      text-align: center;
+      color: #fff;
+      font-size: 36px;
+      margin-bottom: 40px;
+      overflow: hidden; /* Ensures that the text doesn't wrap */
+
+      background-color: #0b420b;
+      margin-top: 0;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      
+    }
+    
+    img {
+    display: block; /* Ensures the image is displayed as a block element */
+    margin: 20px auto; /* Adds margin to center the image horizontally */
+    max-width: 30%; /* Ensures the image doesn't exceed its original size */
+    height: auto; /* Maintains the aspect ratio of the image */
+    border: 1px solid #ccc; /* Adds a border around the image */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Adds a subtle box shadow */
+    border-radius: 15px;
+  }
+    
+    
+    
+
+    h2 {
+      margin-top: 30px;
+      color: #000000;
+      font-size: 24px;
+      margin-bottom: 20px;
+      text-align: center;
+      font-weight: 500;
+      
+   
+    }
+
+    p {
+      line-height: 1.6;
+      margin-bottom: 15px;
+      margin: 4px;
+      padding: 30px;
+    }
+
+    ul {
+      margin-left: 30px;
+      margin-bottom: 15px;
+    }
+
+    ul li {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+    a {
+      color: #0b420b;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    a:hover {
+      color: #208e20;
+    }
+    
+ </style>
+
+
+<script>
+    const text = "Respiratory and Ayurveda";
+    let index = 0;
+    const interval = 100; // Time between each character (in milliseconds)
+
+    function typeText() {
+      if (index < text.length) {
+        document.getElementById("typed-text").textContent += text.charAt(index);
+        index++;
+        setTimeout(typeText, interval);
+      }
+    }
+
+    typeText();
+  </script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $('.dropdown-toggle').click(function () {
+      $(this).next('.dropdown-menu').slideToggle(300);
+    });
+
+    // Close dropdown when clicking outside
+    $(document).click(function (event) {
+      var target = $(event.target);
+      if (
+        !target.is('.dropdown-toggle') &&
+        !target.parents().is('.dropdown-toggle')
+      ) {
+        $('.dropdown-menu').slideUp(300);
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
